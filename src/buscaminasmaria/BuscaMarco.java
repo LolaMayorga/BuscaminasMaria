@@ -1,4 +1,3 @@
-
 package buscaminasmaria;
 
 import java.awt.Dimension;
@@ -40,6 +39,7 @@ public class BuscaMarco extends javax.swing.JFrame {
         Icon icon = new ImageIcon(icono.getImage().getScaledInstance
         (start.getWidth(), start.getHeight(), Image.SCALE_DEFAULT));
         start.setIcon(icon);
+        System.out.println("En GitHub");
     }
     
     void cargarBotones()
