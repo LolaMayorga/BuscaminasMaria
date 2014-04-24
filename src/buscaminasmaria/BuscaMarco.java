@@ -49,6 +49,7 @@ public class BuscaMarco extends javax.swing.JFrame {
         this.panel.setPreferredSize(new Dimension(1050,560)); //Dimensiona el panel
         this.panel.setLayout(new GridLayout(matriz.getFilas(),matriz.getColumnas()));  //setLayout establece la distribucion que tendran los botones en el panel. GridLayout es una plantilla que me permite tener una distribución en filas y columnas
 
+        System.out.println("En GitHub 2");
         for(int i=0;i<matriz.getFilas();i++)  // Crea los botones en tiempo de ejecución
         {
             for(int j=0;j<matriz.getColumnas();j++)
